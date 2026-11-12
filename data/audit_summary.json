@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-12T10:34:42.975Z",
+  "source_repository": "https://github.com/heygnauq1777/arxiv-project-team-12/",
+  "snapshot_note": "Snapshot computed from the append-only JSONL files listed below. Rebuild this artifact after source logs change; GitHub Pages uses this committed snapshot and does not access the local corpus.",
+  "assigned_range": {
+    "first": "2601.03156",
+    "last": "2601.08155",
+    "expected_papers": 5000
+  },
+  "inputs": {
+    "metadata": {
+      "log_rows": 5000,
+      "valid_json_rows": 5000,
+      "malformed_json_lines": 0,
+      "unique_latest_ids": 5000,
+      "file_size_bytes": 2009358,
+      "sha256": "8b07ac59eb60acf029fdda69ebc86c2e4b54bea5c29d4ce93e21e1c07aa224b9"
+    },
+    "revisions": {
+      "log_rows": 2561,
+      "valid_json_rows": 2561,
+      "malformed_json_lines": 0,
+      "unique_latest_ids": 2561,
+      "file_size_bytes": 174154,
+      "sha256": "1649c10f6ca4899fb5cf5240a048841b435f746effaab457362dda5899d65852"
+    },
+    "sources": {
+      "log_rows": 7592,
+      "valid_json_rows": 7592,
+      "malformed_json_lines": 0,
+      "unique_latest_ids": 7561,
+      "file_size_bytes": 924185,
+      "sha256": "5707243d33f01caa2bbc4c30eb727b9797c2d4411112d849e0a66333407255b1"
+    },
+    "semantic_scholar": {
+      "log_rows": 5090,
+      "valid_json_rows": 5090,
+      "malformed_json_lines": 0,
+      "unique_latest_ids": 5000,
+      "file_size_bytes": 132222338,
+      "sha256": "e1348de281b85f4910cc08841e3bf43e56bbd5f67b47cad5621107e19c8ad195"
+    }
+  },
+  "metadata": {
+    "unique_assigned_ids_found": 5000,
+    "missing_ids": 0,
+    "unexpected_ids": 0,
+    "expected_version_count": 7561,
+    "additional_revisions_beyond_v1": 2561,
+    "revision_ids_unique": 2561
+  },
+  "sources": {
+    "unique_latest_versions": 7561,
+    "expected_versions": 7561,
+    "versions_without_status": 0,
+    "unexpected_version_ids": 0,
+    "terminal_status_counts": {
+      "ok": 7021,
+      "pdf_only": 508,
+      "not_tex": 1,
+      "not_found": 31
+    },
+    "tex_bib_success_count": 7021,
+    "tex_bib_success_rate": 0.9285808755455628,
+    "raw_bytes_mean_ok_versions": 3802098.1721976926,
+    "raw_bytes_denominator_ok_versions": 7021,
+    "kept_bytes_mean_ok_versions": 264563.4247258225,
+    "kept_bytes_total_ok_versions": 1857499805,
+    "kept_bytes_denominator_ok_versions": 7021,
+    "latest_seconds_sum": 53277.729999999945,
+    "latest_seconds_sum_hours": 14.799369444444428,
+    "latest_seconds_mean_per_assigned_paper": 10.655545999999989,
+    "latest_seconds_max_for_one_paper": 3047.2099999999996,
+    "final_extracted_tex_bib_bytes": 1857499805,
+    "inspected_example_2601_03249v1": {
+      "status": "not_tex",
+      "raw_bytes": 12317,
+      "kept_bytes": 0
+    }
+  },
+  "semantic_scholar": {
+    "unique_latest_papers": 5000,
+    "expected_papers": 5000,
+    "unexpected_paper_ids": 0,
+    "terminal_status_counts": {
+      "ok": 4989,
+      "not_found": 11
+    },
+    "success_rate": 0.9978,
+    "ok_response_reference_total": 191179,
+    "mean_references_per_ok_response": 38.32010422930447,
+    "mean_references_per_assigned_paper": 38.2358,
+    "references_denominator_ok_responses": 4989
+  },
+  "current_data_directory_file_size_bytes": 1993019072,
+  "data_directory_size_components": {
+    "extracted_tex_bib_bytes": 1857499805,
+    "source_log_bytes": 135330035,
+    "auxiliary_files": {
+      "arxiv/source_inventory.csv": 170854,
+      "arxiv/retry_diagnostics.log": 12799,
+      "s2/crawl.log": 5579
+    },
+    "auxiliary_file_bytes": 189232,
+    "method": "sum of kept_bytes over latest ok versions, four JSONL sizes, and known inventory/diagnostic logs"
+  },
+  "checks": {
+    "assigned_paper_count_matches": true,
+    "metadata_covers_assigned_range": true,
+    "metadata_version_count_matches_expected": true,
+    "revision_count_matches_additional_versions": true,
+    "source_status_covers_every_expected_version": true,
+    "semantic_scholar_covers_assigned_range": true
+  }
+}

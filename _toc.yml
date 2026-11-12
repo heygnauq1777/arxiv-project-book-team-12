@@ -1,0 +1,6 @@
+format: jb-book
+root: index
+chapters:
+  - file: milestone-1/index
+  - file: milestone-2/index
+  - file: references
